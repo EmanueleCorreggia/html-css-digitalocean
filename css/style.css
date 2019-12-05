@@ -1,7 +1,4 @@
-.header_bottom {
-  background-color: blue;
-  height: 500px;
-}
+
 .container_loghi {
   background-color: grey;
   height: 150px;
@@ -53,4 +50,64 @@ a {
 .btn:hover {
   background-color: #0069FF;
   color: white;
+}
+/* header bottom */
+.header_bottom {
+  padding-top: 200px;
+  background-image: url(../img/bg-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.title_welcome {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+.p_welcome {
+  font-size: 30px;
+  color: #CCDBFF;
+}
+.container_form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+.title_form {
+  text-align:center;
+  font-weight: bold;
+}
+.h2_form {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+.btn_form {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #0049FF;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  font-size: 15px;
+}
+.btn_google {
+  margin-top: 15px;
+  width: 100%;
+  font-weight: bold;
+  height: 40px;
+  font-size: 15px;
+  color: #0049FF;
+  background-color: white;
+
+}
+.img_form {
+  width: 20px;
+}
+.p_bottom_form {
+  text-align: center;
+}
+.therm {
+  color: blue;
+  text-decoration: underline;
 }
