@@ -1,8 +1,3 @@
-
-.container_loghi {
-  background-color: grey;
-  height: 150px;
-}
 .container_main_top {
   background-color: white;
   height: 600px;
@@ -21,6 +16,7 @@
 }
 /* header_top */
 .header_top {
+  position: relative;
   position: fixed;
   background-color: white;
   line-height: 50px;
@@ -59,7 +55,7 @@
   background-image: url(../img/bg-home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 .title_welcome {
   font-size: 60px;
@@ -102,7 +98,6 @@
   font-size: 15px;
   color: #0049FF;
   background-color: white;
-
 }
 .img_form {
   position: absolute;
@@ -117,4 +112,49 @@
 .therm {
   color: blue;
   text-decoration: underline;
+}
+/* sezione loghi */
+.container_loghi {
+  background-color: #F3F5F9;
+}
+.box_logo {
+  height: 80px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.logo1 {
+  background-image: url(../img/docker.png);
+}
+.logo2 {
+  background-image: url(../img/gitlab.png);
+}
+.logo3 {
+  background-image: url(../img/slack.png);
+}
+.logo4 {
+  background-image: url(../img/hashicorp.png);
+}
+.logo5 {
+  background-image: url(../img/wework.png);
+}
+.logo6 {
+  background-image: url(../img/splunk.png);
+}
+.title_loghi {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #A5AEC2;
+}
+.p_loghi a {
+  color: #0069ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.p_loghi {
+  margin-top: 30px;
+}
+.fa-chevron-left {
+  margin-left: 10px;
 }
