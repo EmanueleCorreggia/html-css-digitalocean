@@ -1,11 +1,5 @@
-.container_main_top {
-  background-color: white;
-  height: 600px;
-}
-.container_designed {
-  background-color: grey;
-  height: 600px;
-}
+
+
 
 /* regole generali */
 .left {
@@ -188,9 +182,55 @@
   font-weight: bold;
 }
 .container_deploy p {
-  color: rgba(3,27,78,.7;);
+  color: #4E5F83;
   font-size: 20px;
 }
 .global {
   margin-top: 80px;
+}
+/* main */
+.container_developers {
+  margin-top: 100px;
+  background-color: #F3F5F9;
+}
+.container_developers h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #031B4E;
+  margin-top: 100px;
+}
+.container_developers h3 {
+  color: #4E5F83;
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.fa-chevron-right {
+  font-size: 40px;
+  margin-left: 30px;
+}
+.container_developers .fa-chevron-left {
+  font-size: 40px;
+  margin-right: 30px;
+  color: grey;
+}
+.fa-chevron-right:hover {
+  color: #0069ff;
+}
+.container_developers p {
+  font-size: 15px;
+  color: #031B4E;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.container_developers img {
+  width: 700px;
+}
+.fa-circle {
+  color: #0069ff;
+  padding: 5px;
+  margin-bottom: 100px;
+}
+.pallini {
+  margin-top: 50px;
 }
