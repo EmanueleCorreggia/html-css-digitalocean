@@ -6,10 +6,7 @@
   background-color: grey;
   height: 600px;
 }
-.container_features {
-  background-color: white;
-  height: 400px;
-}
+
 /* regole generali */
 .left {
   margin-left: 90px;
@@ -157,4 +154,43 @@
 }
 .fa-chevron-left {
   margin-left: 10px;
+}
+/* sezione deploy */
+.title_deploy {
+  font-size: 36px;
+  font-weight: bold;
+  color: #031B4E;
+  margin-top: 100px;
+}
+.p_deploy {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #4E5F87;
+}
+.mg_top_50 {
+  margin-top: 50px;
+}
+.container_deploy li {
+  border-left: 1px solid #CCCCCC;
+  font-size: 18px;
+  padding: 15px 5px;
+  color: #CCDBFF;
+  cursor: pointer;
+}
+.container_deploy li:hover {
+  color:#241B4E;
+}
+.container_deploy ul {
+  margin-bottom: 15px,
+}
+.container_deploy h3 {
+  color: #241B4E;
+  font-weight: bold;
+}
+.container_deploy p {
+  color: rgba(3,27,78,.7;);
+  font-size: 20px;
+}
+.global {
+  margin-top: 80px;
 }
