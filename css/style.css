@@ -26,28 +26,30 @@
   line-height: 50px;
   width: 100%;
   z-index: 3;
-  cursor: pointer;
 }
-a {
-  color: black;
-  font-weight: bold;
-}
-.header_top ul li a {
+.header_top  a {
   text-decoration: none;
   font-weight: bold;
+  color: black;
 }
-.header_top ul li a:hover {
+.header_top li:hover a {
   color: blue;
 }
 .logo img {
   width: 200px;
+  cursor: pointer;
+}
+.burger_menu {
+  min-width: 100px;
+  color: #0069FF;
+  font-size: 30px;
 }
 .btn {
   border-color: #0069FF;
   color: #0069FF;
   background-color: white;
 }
-.btn:hover {
+.btn:hover a {
   background-color: #0069FF;
   color: white;
 }
@@ -57,7 +59,7 @@ a {
   background-image: url(../img/bg-home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  padding-bottom: 100px;
 }
 .title_welcome {
   font-size: 60px;
@@ -65,7 +67,7 @@ a {
   font-weight: bold;
 }
 .p_welcome {
-  font-size: 30px;
+  font-size: 25px;
   color: #CCDBFF;
 }
 .container_form {
@@ -92,6 +94,7 @@ a {
   font-size: 15px;
 }
 .btn_google {
+  position: relative;
   margin-top: 15px;
   width: 100%;
   font-weight: bold;
@@ -102,7 +105,11 @@ a {
 
 }
 .img_form {
-  width: 20px;
+  position: absolute;
+  top:50%;
+  left:10px;
+  transform: translateY(-50%);
+  height:80%;
 }
 .p_bottom_form {
   text-align: center;
