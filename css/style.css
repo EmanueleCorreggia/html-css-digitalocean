@@ -263,7 +263,8 @@
 }
 /* tabella */
 .container_tabella {
-  background-color: rgba(0, 0, 230, 100);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,230,1) 100%);
 }
 .container_tabella h2 {
   color: white;
@@ -312,13 +313,13 @@
 }
 .container_developement h1 {
   margin: 100px 0;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   color: #031B4E;
 }
 .rokerbox {
-  width: 800px;
   height: 400px;
+  width: 620px;
   background-color: white;
 }
 .container_developement img {
@@ -327,14 +328,39 @@
   margin-bottom: 50px;
 }
 .container_developement p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: #4E5F83;
+  text-align: center;
 }
 .container_developement h3 {
   font-size: 16px;
   color: #4E5F83;
   font-weight: bold;
+}
+.slider_container {
+  position: relative;
+}
+.slider_img img {
+  width: 95%;
+}
+.left_arrow {
+  position: absolute;
+  top: 50%;
+  right:100%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  font-size: 40px;
+  color: lightgrey;
+}
+.right_arrow {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  font-size: 40px;
+  color: black;
 }
 .container_developement h4 {
   font-size: 12px;
@@ -386,9 +412,7 @@ span.made_ny {
   font-size: 1.4em;
   color: rgb(164, 160, 160);
 }
-.footer_logo span a:hover,
-.footer_logo span a:active,
-.footer_logo span a:focus {
+.footer_logo span a:hover {
   color: rgb(37, 194, 252);
 }
 footer ul {
@@ -405,9 +429,7 @@ footer ul li a {
   font-weight: normal;
   font-size: 0.8em;
 }
-footer ul li a:hover,
-footer ul li a:active,
-footer ul li a:focus {
+footer ul li a:hover {
   color: rgb(37, 194, 252);
 }
 /* shark */
